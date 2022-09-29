@@ -30,7 +30,7 @@ To demonstrate how a customer can choose a Fintech professional and pay them as 
 * This image shows the Customers account balance in Ganache after transaction 9 which was hiring Jo for .6175eth
 
 
-!['Account Balance image'](./Images/Eth_balance_after_#9.png)
+!['Account Balance image'](./Images/Eth_balance_after_9.png)
 
 * This image shows the next two transactions added to the blockchain, including transaction 11 which was payment for hiring Ash for 1.75 hrs at .5775eth. The Customers Eth balance shows in the sidebar of App at the top and you can see it has decreased compared with the image above.
 
