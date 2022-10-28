@@ -1,8 +1,8 @@
 # Krypto_Pay_Wage
 
- This project is building a platform called KryptoJobs2Go. It is an application that customers can use to choose fintech professionals from a list of candidates, hire them, and pay them in Ethereum. The app integrates the Ethereum blockchain network into its funcionality in order to instantly pay the fintech professionals with cryptocurrency.
+ This project is building a platform called KryptoJobs2Go. It is an application that customers can use to choose fintech professionals from a list of candidates, hire them, and pay them in Ethereum. The app integrates the Ethereum blockchain network into its functionality in order to instantly pay the fintech professionals with cryptocurrency.
 
-The KryptoJobs2Go application uses Streamlit for the UI, Ganache for Ethereum transactions and the Python codes are run within Remix. One code is predominantly functions the other is the product database and UI 
+The KryptoJobs2Go application uses Streamlit for the UI, Ganache for Ethereum transactions, coded in Python.  One code is predominantly functions the other is the product database and UI 
 
 
 The Application in action.
@@ -36,4 +36,25 @@ To demonstrate how a customer can choose a Fintech professional and pay them as 
 
 !['The next transactions with Ash image'](./Images/Transactions_9_to_11.png)
 
+# To run this Project locally.
+Clone repo/
+install Streamlit/  
+open Ganache to an account/
+
+
+
+
+
+## Ganache
+https://trufflesuite.com/ganache/ 
+
+copy the mnemonic phrase from Ganache account you open into sample env and save as env
+
+set the RPC server address from your Ganache as W3 address in line 20 of crypto_wallet.py
+
+
+## Streamlit
+https://streamlit.io/ 
+
+Pip install Streamlit (streamlit run krypto_jobs.py)
 
